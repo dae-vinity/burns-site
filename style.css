@@ -1,8 +1,8 @@
 h1
 {
     font-family: 'Pragmatica';
-    src: url('assets/Pragmatica-Black.woff2') format('woff2'),
-        url('assets/Pragmatica-Black.woff') format('woff');
+    src: url('https://github.com/dae-vinity/burns-site/raw/refs/heads/main/assets/Pragmatica-Black.woff2') format('woff2'),
+        url('https://github.com/dae-vinity/burns-site/raw/refs/heads/main/assets/Pragmatica-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
