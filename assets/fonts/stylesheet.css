@@ -1,0 +1,528 @@
+@font-face {
+    font-family: 'Pragmatica Cond';
+    src: url('PragmaticaCond-LightOblique.eot');
+    src: local('Pragmatica Cond Light Oblique'), local('PragmaticaCond-LightOblique'),
+        url('PragmaticaCond-LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaCond-LightOblique.woff2') format('woff2'),
+        url('PragmaticaCond-LightOblique.woff') format('woff'),
+        url('PragmaticaCond-LightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica Extended';
+    src: url('PragmaticaExtended-BookOblique.eot');
+    src: local('Pragmatica Extended Book Oblique'), local('PragmaticaExtended-BookOblique'),
+        url('PragmaticaExtended-BookOblique.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaExtended-BookOblique.woff2') format('woff2'),
+        url('PragmaticaExtended-BookOblique.woff') format('woff'),
+        url('PragmaticaExtended-BookOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica Shadow';
+    src: url('PragmaticaShadow-Oblique.eot');
+    src: local('Pragmatica Shadow Oblique'), local('PragmaticaShadow-Oblique'),
+        url('PragmaticaShadow-Oblique.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaShadow-Oblique.woff2') format('woff2'),
+        url('PragmaticaShadow-Oblique.woff') format('woff'),
+        url('PragmaticaShadow-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica Cond';
+    src: url('PragmaticaCond-ExtraLightObliqu.eot');
+    src: local('Pragmatica Cond ExtraLight Oblique'), local('PragmaticaCond-ExtraLightObliqu'),
+        url('PragmaticaCond-ExtraLightObliqu.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaCond-ExtraLightObliqu.woff2') format('woff2'),
+        url('PragmaticaCond-ExtraLightObliqu.woff') format('woff'),
+        url('PragmaticaCond-ExtraLightObliqu.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('Pragmatica-ExtraLightOblique.eot');
+    src: local('Pragmatica ExtraLight Oblique'), local('Pragmatica-ExtraLightOblique'),
+        url('Pragmatica-ExtraLightOblique.eot?#iefix') format('embedded-opentype'),
+        url('Pragmatica-ExtraLightOblique.woff2') format('woff2'),
+        url('Pragmatica-ExtraLightOblique.woff') format('woff'),
+        url('Pragmatica-ExtraLightOblique.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica Cond';
+    src: url('PragmaticaCond-Book.eot');
+    src: local('Pragmatica Cond Book'), local('PragmaticaCond-Book'),
+        url('PragmaticaCond-Book.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaCond-Book.woff2') format('woff2'),
+        url('PragmaticaCond-Book.woff') format('woff'),
+        url('PragmaticaCond-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Extended';
+    src: url('PragmaticaExtended-Light.eot');
+    src: local('Pragmatica Extended Light'), local('PragmaticaExtended-Light'),
+        url('PragmaticaExtended-Light.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaExtended-Light.woff2') format('woff2'),
+        url('PragmaticaExtended-Light.woff') format('woff'),
+        url('PragmaticaExtended-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('Pragmatica-ExtraBoldOblique.eot');
+    src: local('Pragmatica ExtraBold Oblique'), local('Pragmatica-ExtraBoldOblique'),
+        url('Pragmatica-ExtraBoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('Pragmatica-ExtraBoldOblique.woff2') format('woff2'),
+        url('Pragmatica-ExtraBoldOblique.woff') format('woff'),
+        url('Pragmatica-ExtraBoldOblique.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica Extended';
+    src: url('PragmaticaExtended-Medium.eot');
+    src: local('Pragmatica Extended Medium'), local('PragmaticaExtended-Medium'),
+        url('PragmaticaExtended-Medium.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaExtended-Medium.woff2') format('woff2'),
+        url('PragmaticaExtended-Medium.woff') format('woff'),
+        url('PragmaticaExtended-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Extended';
+    src: url('PragmaticaExtended-BlackOblique.eot');
+    src: local('Pragmatica Extended Black Oblique'), local('PragmaticaExtended-BlackOblique'),
+        url('PragmaticaExtended-BlackOblique.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaExtended-BlackOblique.woff2') format('woff2'),
+        url('PragmaticaExtended-BlackOblique.woff') format('woff'),
+        url('PragmaticaExtended-BlackOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica Extended';
+    src: url('PragmaticaExtended-Book.eot');
+    src: local('Pragmatica Extended Book'), local('PragmaticaExtended-Book'),
+        url('PragmaticaExtended-Book.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaExtended-Book.woff2') format('woff2'),
+        url('PragmaticaExtended-Book.woff') format('woff'),
+        url('PragmaticaExtended-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Extended';
+    src: url('PragmaticaExtended-Black.eot');
+    src: local('Pragmatica Extended Black'), local('PragmaticaExtended-Black'),
+        url('PragmaticaExtended-Black.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaExtended-Black.woff2') format('woff2'),
+        url('PragmaticaExtended-Black.woff') format('woff'),
+        url('PragmaticaExtended-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Extended';
+    src: url('PragmaticaExtended-BoldOblique.eot');
+    src: local('Pragmatica Extended Bold Oblique'), local('PragmaticaExtended-BoldOblique'),
+        url('PragmaticaExtended-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaExtended-BoldOblique.woff2') format('woff2'),
+        url('PragmaticaExtended-BoldOblique.woff') format('woff'),
+        url('PragmaticaExtended-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica Cond';
+    src: url('PragmaticaCond-Medium.eot');
+    src: local('Pragmatica Cond Medium'), local('PragmaticaCond-Medium'),
+        url('PragmaticaCond-Medium.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaCond-Medium.woff2') format('woff2'),
+        url('PragmaticaCond-Medium.woff') format('woff'),
+        url('PragmaticaCond-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Extended';
+    src: url('PragmaticaExtended-LightOblique.eot');
+    src: local('Pragmatica Extended Light Oblique'), local('PragmaticaExtended-LightOblique'),
+        url('PragmaticaExtended-LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaExtended-LightOblique.woff2') format('woff2'),
+        url('PragmaticaExtended-LightOblique.woff') format('woff'),
+        url('PragmaticaExtended-LightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('Pragmatica-LightOblique.eot');
+    src: local('Pragmatica Light Oblique'), local('Pragmatica-LightOblique'),
+        url('Pragmatica-LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('Pragmatica-LightOblique.woff2') format('woff2'),
+        url('Pragmatica-LightOblique.woff') format('woff'),
+        url('Pragmatica-LightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica Extended';
+    src: url('PragmaticaExtended-ExtraBoldObl.eot');
+    src: local('Pragmatica Extended ExtraBold Oblique'), local('PragmaticaExtended-ExtraBoldObl'),
+        url('PragmaticaExtended-ExtraBoldObl.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaExtended-ExtraBoldObl.woff2') format('woff2'),
+        url('PragmaticaExtended-ExtraBoldObl.woff') format('woff'),
+        url('PragmaticaExtended-ExtraBoldObl.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('Pragmatica-Bold.eot');
+    src: local('Pragmatica Bold'), local('Pragmatica-Bold'),
+        url('Pragmatica-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Pragmatica-Bold.woff2') format('woff2'),
+        url('Pragmatica-Bold.woff') format('woff'),
+        url('Pragmatica-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('Pragmatica-BlackOblique.eot');
+    src: local('Pragmatica Black Oblique'), local('Pragmatica-BlackOblique'),
+        url('Pragmatica-BlackOblique.eot?#iefix') format('embedded-opentype'),
+        url('Pragmatica-BlackOblique.woff2') format('woff2'),
+        url('Pragmatica-BlackOblique.woff') format('woff'),
+        url('Pragmatica-BlackOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica Extended';
+    src: url('PragmaticaExtended-Bold.eot');
+    src: local('Pragmatica Extended Bold'), local('PragmaticaExtended-Bold'),
+        url('PragmaticaExtended-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaExtended-Bold.woff2') format('woff2'),
+        url('PragmaticaExtended-Bold.woff') format('woff'),
+        url('PragmaticaExtended-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('Pragmatica-Black.eot');
+    src: local('Pragmatica Black'), local('Pragmatica-Black'),
+        url('Pragmatica-Black.eot?#iefix') format('embedded-opentype'),
+        url('Pragmatica-Black.woff2') format('woff2'),
+        url('Pragmatica-Black.woff') format('woff'),
+        url('Pragmatica-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Cond';
+    src: url('PragmaticaCond-ExtraBoldOblique.eot');
+    src: local('Pragmatica Cond ExtraBold Oblique'), local('PragmaticaCond-ExtraBoldOblique'),
+        url('PragmaticaCond-ExtraBoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaCond-ExtraBoldOblique.woff2') format('woff2'),
+        url('PragmaticaCond-ExtraBoldOblique.woff') format('woff'),
+        url('PragmaticaCond-ExtraBoldOblique.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica Cond';
+    src: url('PragmaticaCond-MediumOblique.eot');
+    src: local('Pragmatica Cond Medium Oblique'), local('PragmaticaCond-MediumOblique'),
+        url('PragmaticaCond-MediumOblique.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaCond-MediumOblique.woff2') format('woff2'),
+        url('PragmaticaCond-MediumOblique.woff') format('woff'),
+        url('PragmaticaCond-MediumOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('Pragmatica-Medium.eot');
+    src: local('Pragmatica Medium'), local('Pragmatica-Medium'),
+        url('Pragmatica-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Pragmatica-Medium.woff2') format('woff2'),
+        url('Pragmatica-Medium.woff') format('woff'),
+        url('Pragmatica-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('Pragmatica-BookOblique.eot');
+    src: local('Pragmatica Book Oblique'), local('Pragmatica-BookOblique'),
+        url('Pragmatica-BookOblique.eot?#iefix') format('embedded-opentype'),
+        url('Pragmatica-BookOblique.woff2') format('woff2'),
+        url('Pragmatica-BookOblique.woff') format('woff'),
+        url('Pragmatica-BookOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica Cond';
+    src: url('PragmaticaCond-BoldOblique.eot');
+    src: local('Pragmatica Cond Bold Oblique'), local('PragmaticaCond-BoldOblique'),
+        url('PragmaticaCond-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaCond-BoldOblique.woff2') format('woff2'),
+        url('PragmaticaCond-BoldOblique.woff') format('woff'),
+        url('PragmaticaCond-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica Cond';
+    src: url('PragmaticaCond-ExtraBold.eot');
+    src: local('Pragmatica Cond ExtraBold'), local('PragmaticaCond-ExtraBold'),
+        url('PragmaticaCond-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaCond-ExtraBold.woff2') format('woff2'),
+        url('PragmaticaCond-ExtraBold.woff') format('woff'),
+        url('PragmaticaCond-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Extended';
+    src: url('PragmaticaExtended-MediumObliqu.eot');
+    src: local('Pragmatica Extended Medium Oblique'), local('PragmaticaExtended-MediumObliqu'),
+        url('PragmaticaExtended-MediumObliqu.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaExtended-MediumObliqu.woff2') format('woff2'),
+        url('PragmaticaExtended-MediumObliqu.woff') format('woff'),
+        url('PragmaticaExtended-MediumObliqu.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica Cond';
+    src: url('PragmaticaCond-BookOblique.eot');
+    src: local('Pragmatica Cond Book Oblique'), local('PragmaticaCond-BookOblique'),
+        url('PragmaticaCond-BookOblique.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaCond-BookOblique.woff2') format('woff2'),
+        url('PragmaticaCond-BookOblique.woff') format('woff'),
+        url('PragmaticaCond-BookOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica Extended';
+    src: url('PragmaticaExtended-ExtraLight.eot');
+    src: local('Pragmatica Extended ExtraLight'), local('PragmaticaExtended-ExtraLight'),
+        url('PragmaticaExtended-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaExtended-ExtraLight.woff2') format('woff2'),
+        url('PragmaticaExtended-ExtraLight.woff') format('woff'),
+        url('PragmaticaExtended-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('Pragmatica-MediumOblique.eot');
+    src: local('Pragmatica Medium Oblique'), local('Pragmatica-MediumOblique'),
+        url('Pragmatica-MediumOblique.eot?#iefix') format('embedded-opentype'),
+        url('Pragmatica-MediumOblique.woff2') format('woff2'),
+        url('Pragmatica-MediumOblique.woff') format('woff'),
+        url('Pragmatica-MediumOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('Pragmatica-ExtraBold.eot');
+    src: local('Pragmatica ExtraBold'), local('Pragmatica-ExtraBold'),
+        url('Pragmatica-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Pragmatica-ExtraBold.woff2') format('woff2'),
+        url('Pragmatica-ExtraBold.woff') format('woff'),
+        url('Pragmatica-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Cond';
+    src: url('PragmaticaCond-ExtraLight.eot');
+    src: local('Pragmatica Cond ExtraLight'), local('PragmaticaCond-ExtraLight'),
+        url('PragmaticaCond-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaCond-ExtraLight.woff2') format('woff2'),
+        url('PragmaticaCond-ExtraLight.woff') format('woff'),
+        url('PragmaticaCond-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('Pragmatica-Light.eot');
+    src: local('Pragmatica Light'), local('Pragmatica-Light'),
+        url('Pragmatica-Light.eot?#iefix') format('embedded-opentype'),
+        url('Pragmatica-Light.woff2') format('woff2'),
+        url('Pragmatica-Light.woff') format('woff'),
+        url('Pragmatica-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Extended';
+    src: url('PragmaticaExtended-ExtraLightOb.eot');
+    src: local('Pragmatica Extended ExtraLight Oblique'), local('PragmaticaExtended-ExtraLightOb'),
+        url('PragmaticaExtended-ExtraLightOb.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaExtended-ExtraLightOb.woff2') format('woff2'),
+        url('PragmaticaExtended-ExtraLightOb.woff') format('woff'),
+        url('PragmaticaExtended-ExtraLightOb.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica Cond';
+    src: url('PragmaticaCond-Light.eot');
+    src: local('Pragmatica Cond Light'), local('PragmaticaCond-Light'),
+        url('PragmaticaCond-Light.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaCond-Light.woff2') format('woff2'),
+        url('PragmaticaCond-Light.woff') format('woff'),
+        url('PragmaticaCond-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Cond';
+    src: url('PragmaticaCond-BlackOblique.eot');
+    src: local('Pragmatica Cond Black Oblique'), local('PragmaticaCond-BlackOblique'),
+        url('PragmaticaCond-BlackOblique.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaCond-BlackOblique.woff2') format('woff2'),
+        url('PragmaticaCond-BlackOblique.woff') format('woff'),
+        url('PragmaticaCond-BlackOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica Cond';
+    src: url('PragmaticaCond-Bold.eot');
+    src: local('Pragmatica Cond Bold'), local('PragmaticaCond-Bold'),
+        url('PragmaticaCond-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaCond-Bold.woff2') format('woff2'),
+        url('PragmaticaCond-Bold.woff') format('woff'),
+        url('PragmaticaCond-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Cond';
+    src: url('PragmaticaCond-Black.eot');
+    src: local('Pragmatica Cond Black'), local('PragmaticaCond-Black'),
+        url('PragmaticaCond-Black.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaCond-Black.woff2') format('woff2'),
+        url('PragmaticaCond-Black.woff') format('woff'),
+        url('PragmaticaCond-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Shadow';
+    src: url('PragmaticaShadow-Book.eot');
+    src: local('Pragmatica Shadow Book'), local('PragmaticaShadow-Book'),
+        url('PragmaticaShadow-Book.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaShadow-Book.woff2') format('woff2'),
+        url('PragmaticaShadow-Book.woff') format('woff'),
+        url('PragmaticaShadow-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('Pragmatica-BoldOblique.eot');
+    src: local('Pragmatica Bold Oblique'), local('Pragmatica-BoldOblique'),
+        url('Pragmatica-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('Pragmatica-BoldOblique.woff2') format('woff2'),
+        url('Pragmatica-BoldOblique.woff') format('woff'),
+        url('Pragmatica-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('Pragmatica-Book.eot');
+    src: local('Pragmatica Book'), local('Pragmatica-Book'),
+        url('Pragmatica-Book.eot?#iefix') format('embedded-opentype'),
+        url('Pragmatica-Book.woff2') format('woff2'),
+        url('Pragmatica-Book.woff') format('woff'),
+        url('Pragmatica-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('Pragmatica-ExtraLight.eot');
+    src: local('Pragmatica ExtraLight'), local('Pragmatica-ExtraLight'),
+        url('Pragmatica-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Pragmatica-ExtraLight.woff2') format('woff2'),
+        url('Pragmatica-ExtraLight.woff') format('woff'),
+        url('Pragmatica-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Extended';
+    src: url('PragmaticaExtended-ExtraBold.eot');
+    src: local('Pragmatica Extended ExtraBold'), local('PragmaticaExtended-ExtraBold'),
+        url('PragmaticaExtended-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaExtended-ExtraBold.woff2') format('woff2'),
+        url('PragmaticaExtended-ExtraBold.woff') format('woff'),
+        url('PragmaticaExtended-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
