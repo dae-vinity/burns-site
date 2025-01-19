@@ -1,11 +1,11 @@
-h1 {
-    font-family: 'Pragmatica';
-    font-weight: 900;
-    font-style: normal;
-}
-
 p {
     font-family: 'Pragmatica';
     font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Pragmatica';
+    font-weight: 900;
     font-style: normal;
 }
