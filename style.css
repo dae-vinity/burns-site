@@ -2,10 +2,17 @@ p {
     font-family: 'Pragmatica';
     font-weight: normal;
     font-style: normal;
+    color: white;
 }
 
 h1 {
     font-family: 'Pragmatica';
     font-weight: 900;
     font-style: normal;
+    color: white;
+}
+
+body {
+    padding: 8px;
+    margin: 8px;
 }
