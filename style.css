@@ -13,6 +13,14 @@ h1 {
 }
 
 body {
+    background-color: black;
     padding: 8px;
     margin: 8px;
+}
+
+.directory {
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 420px;
+    height: 165px;
+    box-sizing: border-box;
 }
