@@ -14,18 +14,31 @@ h1 {
 
 body {
   background-color: black;
-  padding: 8px;
-  margin: 8px;
+  padding: 0px;
+  margin: 0px;
   background-image: url(assets/images/blueassgarage.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .directory {
-  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  background-color: rgb(0, 0, 180, 0.5);
   padding: 8px;
+  margin: 16px;
   width: 420px;
   height: 165px;
   box-sizing: border-box;
   backdrop-filter: blur(8px);
+}
+
+.information {
+  position: absolute;
+  padding: 16px;
+  margin: 0px;
+  width: auto;
+  height: 100%;
+  right: 0px;
+  top: 0px;
+  box-sizing: border-box;
 }
