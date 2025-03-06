@@ -1,3 +1,9 @@
+body {
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+}
+
 p {
   font-family: "Pragmatica";
   font-weight: normal;
@@ -15,25 +21,18 @@ h1 {
   font-size: 24px;
 }
 
-body {
-  background-color: black;
-  padding: 0px;
-  margin: 0px;
-}
-
 a {
   color: white;
   margin: 0px;
 }
 
-.directory {
-  position: absolute;
-  background-color: rgb(0, 0, 0, 0.5);
-  padding: 16px;
-  margin: 16px;
-  width: 420px;
-  box-sizing: border-box;
-  backdrop-filter: blur(8px);
+iframe {
+  border: 0px;
+}
+
+.navigation {
+  width: 452px;
+  height: 512px;
 }
 
 .information {
@@ -45,4 +44,12 @@ a {
   right: 0px;
   top: 0px;
   box-sizing: border-box;
+}
+
+.musicplayer {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 352px;
+  height: 272px;
 }

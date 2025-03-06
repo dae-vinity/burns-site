@@ -5,54 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>THE BURNS / home</title>
     <link rel="icon" type="image/x-icon" href="/assets/favicon.svg" />
-    <!-- fonts -->
     <link rel="stylesheet" href="/assets/fonts/stylesheet.css" />
-    <!-- actual styles -->
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="/style.css" />
   </head>
 
   <body>
-    <div class="directory">
-      <img
-        src="assets/favicon.svg"
-        style="position: relative; display: inline; width: 32px; height: 32px"
-      />
-      <h1
-        style="
-          position: relative;
-          display: inline;
-          font-size: 24px;
-          height: 32px;
-          top: -8px;
-        "
-      >
-        THEBURNS.RU
-      </h1>
-      <p
-        style="
-          position: relative;
-          display: inline;
-          font-size: 24px;
-          height: 32px;
-          top: -10px;
-        "
-      >
-        / home
-      </p>
-
-      <p><a href="index" style="font-weight: bold">> HOME</a></p>
-      <p><a href="music">MUSIC</a></p>
-      <p><a href="videos">VIDEOS</a></p>
-      <p><a href="history">HISTORY</a></p>
-      <br />
-      <p><a href="wiki">WIKI</a></p>
-      <p><a href="https://discord.gg/wVsTjbtQRZ">SERVER</a></p>
-    </div>
+    <iframe src="/templates/navigation.html" class="navigation"></iframe>
+    <iframe src="/templates/musicplayer.html" class="musicplayer"></iframe>
 
     <div class="information">
       <div
         style="
-          background-image: url(assets/images/thechills.png);
+          background-image: url(/assets/images/thechills.png);
           background-size: 100%;
           background-position-y: 25%;
           width: 512px;
@@ -80,8 +44,7 @@
       </p>
     </div>
 
-    <div class="musicPlayer"></div>
-
-    <script src="index.js"></script>
+    <script src="/background.js"></script>
+    <script src="/index.js"></script>
   </body>
 </html>
